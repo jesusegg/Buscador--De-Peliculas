@@ -1,0 +1,83 @@
+.cnt {
+  padding-top: 10px;
+  color: #fff;
+}
+.form-container {
+  display: grid;
+  gap: 10px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container button {
+  margin-left: auto;
+  color: #fff;
+}
+.label {
+  padding-right: 10px;
+  color: #fff;
+}
+.contenedor {
+  background-color: gray;
+  opacity: 85%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  width: 60%;
+  border-radius: 40px;
+}
+.inputBuscador {
+  width: 500px;
+  height: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.botonBuscador {
+  width: 100px;
+  display: inline-block;
+  margin: auto;
+  background-color: rgb(104, 103, 103);
+  padding: 4px 6px;
+  border-radius: 10px;
+}
+.ulBusqueda {
+  padding: 60px;
+  background-color: gray;
+  margin: auto;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  border-radius: 40px;
+  opacity: 90%;
+  list-style: none;
+  text-align: center;
+}
+.imgBuscador {
+  width: 140px;
+  height: 180px;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.botonFavoritos {
+  width: 100px;
+  display: inline-block;
+  margin: auto;
+  background-color: rgba(0, 0, 255, 0.671);
+  /* background-color: rgb(104, 103, 103); */
+  padding: 4px 6px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 2px;
+}
+.botonFavoritos:hover {
+  background-color: rgba(10, 10, 109, 0.671);
+}
+.botonFavoritos.color {
+  background-color: red;
+}

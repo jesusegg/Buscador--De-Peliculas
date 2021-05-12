@@ -1,0 +1,9 @@
+body {
+  background-image: url("./fondo\ pelicula.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  color: white;
+}
