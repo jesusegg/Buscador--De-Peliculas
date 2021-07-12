@@ -10,6 +10,7 @@ export class Buscador extends Component {
     this.state = {
       title: "",
       mostrar: false,
+      bloquearFav: false,
     };
   }
   handleChange(event) {
@@ -63,13 +64,14 @@ export class Buscador extends Component {
                   </Link>
                   <button
                     className="botonFavoritos"
-                    onClick={() =>
+                    onClick={() => {
                       this.props.addMovieFavorite({
                         title: movie.Title,
                         id: movie.imdbID,
                         Poster: movie.Poster,
-                      })
-                    }
+                      });
+                      this.setState({ ...this.state, bloquearFav: true });
+                    }}
                   >
                     Add Favorite
                   </button>
